@@ -35,8 +35,8 @@ const HeroMenu = () => {
 
         <div className='flex flex-col lg:flex-row mt-5'>
           {/* Left Section: Decorative Image */}
-          <div className="hidden lg:block w-1/6 md:w-[30%]">
-            <Image src="/main-menu.png" alt="Menu Decor" width={100} height={100} className="object-cover"/>
+          <div className="hidden lg:block w-1/6 md:w-[40%]">
+            <Image src="/main-menu.png" alt="Menu Decor" width={300} height={300} className="object-cover mt-10"/>
           </div>
 
           {/* Right Section: Menu Items */}

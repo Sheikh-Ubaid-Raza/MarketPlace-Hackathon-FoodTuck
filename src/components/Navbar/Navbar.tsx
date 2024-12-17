@@ -10,14 +10,15 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const menuItems = [
-    { name: "Home", href: "/", active: true },
-    { name: "Menu", href: "/menu" },
-    { name: "Blog", href: "/blog" },
-    { name: "Pages", href: "/pages" },
-    { name: "About", href: "/about" },
-    { name: "Shop", href: "/shop" },
-    { name: "Contact", href: "/contact" },
-  ]
+    { name: "Home", route: "/" , active: true },
+    { name: "Menu", route: "/menu", active: false  },
+    { name: "Chef", route: "/chef" , active: false  },
+    { name: "Checkout", route: "/checkout" , active: false  },
+    { name: "FAQ", route: "/faq" , active: false  },
+    { name: "SignUp", route: "/signup" , active: false  },
+    { name: "Error", route: "/error" , active: false  },
+
+  ];
 
   return (
     <header className="w-full bg-[#0D0D0D] top-0 px-4 sm:px-6 lg:px-[15.62%] py-4 lg:py-7">
@@ -48,7 +49,7 @@ export default function Navbar() {
           {menuItems.map((item) => (
             <li key={item.name}>
               <Link
-                href={item.href}
+                href={item.route}
                 className={`text-[16px] leading-6 ${
                   item.active ? "text-[#FF9F0D] font-bold" : "text-white"
                 } font-inter hover:text-[#FF9F0D] transition-colors`}

@@ -8,7 +8,7 @@ export default function NewsletterSection() {
         <p className="mb-6">Dont wait, make a smart & logical quote here. Its pretty easy.</p>
       </div>
 
-      <form className="w-full md:w-[459px] flex max-w-2xl mx-auto">
+      <form className="w-full md:w-[459px] flex flex-col md:flex-row max-w-2xl mx-auto">
         <input
           type="email"
           placeholder="Enter Your Email"
@@ -16,7 +16,7 @@ export default function NewsletterSection() {
         />
         <button
           type="submit"
-          className="bg-white text-[#FF9F0D] px-6 py-2 rounded-r-md font-semibold hover:bg-[#FF9F0D] hover:text-white transition duration-300"
+          className="bg-white text-[#FF9F0D] px-6 py-2 md:py-4 rounded-r-md font-semibold hover:bg-[#FF9F0D] hover:text-white transition duration-300"
         >
           Subscribe Now
         </button>

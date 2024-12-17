@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 
 export default function Signup(){
     return(
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white" id="signup">
     
         {/* Signup Form */}
         <section className="py-16">

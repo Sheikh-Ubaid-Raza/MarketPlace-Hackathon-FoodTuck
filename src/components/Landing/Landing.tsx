@@ -5,9 +5,20 @@ import { CiSearch } from "react-icons/ci";
 import { IoBagHandle } from "react-icons/io5";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Navbar() {
+export default function HeroNavbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navItems = [
+    { name: "Home", route: "/" },
+    { name: "Menu", route: "/menu" },
+    { name: "Chef", route: "/chef" },
+    { name: "Checkout", route: "/checkout" },
+    { name: "FAQ", route: "/faq" },
+    { name: "SignUp", route: "/signup" },
+    { name: "Error", route: "/error" },
+
+  ];
 
   return (
     <nav className="bg-black text-white p-4 w-full">
@@ -27,21 +38,20 @@ export default function Navbar() {
 
         {/* Links */}
         <ul
-          className={`absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent md:flex items-center space-y-4 md:space-y-0 md:space-x-6 text-sm transition-all duration-300 ${
-            menuOpen ? "block" : "hidden"
-          }`}
+      className={`absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent md:flex items-center space-y-4 md:space-y-0 md:space-x-6 text-sm transition-all duration-300 ${
+        menuOpen ? "block" : "hidden"
+      }`}
+    >
+      {navItems.map((item) => (
+        <li
+          key={item.name}
+          className="hover:text-[#FF9F0D] cursor-pointer px-4 md:px-0"
+          onClick={() => setMenuOpen(false)} // Close the menu on click
         >
-          {["Home", "Menu", "Blog", "Pages", "About", "Shop", "Contact"].map((item) => (
-            <li
-              key={item}
-              className="hover:text-[#FF9F0D] cursor-pointer px-4 md:px-0"
-              onClick={() => setMenuOpen(false)} // Close the menu on click
-            >
-              {item}
-             
-            </li>
-          ))}
-        </ul>
+          <Link href={item.route}>{item.name}</Link>
+        </li>
+      ))}
+    </ul>
 
         {/* Search Box and Cart Icon */}
         <div className="hidden md:flex items-center space-x-2">
@@ -49,7 +59,7 @@ export default function Navbar() {
             <input
               type="text"
               placeholder="Search..."
-              className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-orange-500"
+              className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-[#FF9F0D]"
             />
             <span className="absolute top-2.5 right-3">
               <CiSearch />
@@ -76,7 +86,7 @@ export default function Navbar() {
               pharetra dictum neque massa congue.
             </p>
             <button className="w-[190px] h-[60px] rounded-[30px] bg-[#FF9F0D]">
-              See Menu
+              <Link href="/menu">See Menu</Link>
             </button>
           </div>
 

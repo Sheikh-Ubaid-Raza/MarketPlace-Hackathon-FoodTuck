@@ -53,12 +53,12 @@ function AboutUs() {
       </div>
 
       {/* Image Section */}
-      <div className="mt-[50px] md:mt-0 flex flex-col items-center md:items-start">
+      <div className="mt-[50px] md:mt-0 flex flex-col items-center md:items-start md:w-[550px] md:p-4">
         {/* For small screens, make the image full-width */}
         <Image
           src="/about1.jpeg"
           alt="About Us Image 1"
-          className="object-cover rounded-lg w-full md:w-auto"
+          className="object-cover rounded-lg w-full md:w-auto md:mb-4"
           width={420}
           height={400}
         />
@@ -66,16 +66,16 @@ function AboutUs() {
           <Image
             src="/about2.jpeg"
             alt="About Us Image 2"
-            className="object-cover rounded-lg w-full md:w-auto"
-            width={200}
-            height={200}
+            className="object-cover rounded-lg w-full "
+            width={150}
+            height={150}
           />
           <Image
             src="/about3.jpeg"
             alt="About Us Image 3"
-            className="object-cover rounded-lg w-full md:w-auto mt-4 md:mt-0"
-            width={200}
-            height={200}
+            className="object-cover rounded-lg w-full mt-4 md:mt-0"
+            width={150}
+            height={150}
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function MeetChef() {
   return (
@@ -16,7 +17,7 @@ function MeetChef() {
       </div>
 
       {/* Images Section */}
-      <div className="flex flex-wrap justify-center gap-6 mt-[50px]">
+      <div className="grid grid-cols-1 sm:w-full md:grid-cols-2 lg:grid-cols-4 gap-6 mt-[50px]">
         <Image 
           src="/chef1.jpeg" 
           alt="Chef 1" 
@@ -50,7 +51,7 @@ function MeetChef() {
       {/* Button Section */}
       <div className="flex justify-center mt-[32px]">
         <button className="bg-transparent border-2 border-orange-500 text-white w-[140px] h-[50px] md:w-[190px] md:h-[60px] rounded-[40px] hover:bg-[#FF9F0D] hover:text-black transition duration-300">
-          See More
+        <Link href="/chef">See More</Link>
         </button>
       </div>
     </section>
