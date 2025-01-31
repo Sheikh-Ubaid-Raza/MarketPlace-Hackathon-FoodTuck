@@ -19,4 +19,5 @@ export interface Product {
   category: string;
   available: boolean;
   stripe?: string;  // stripe ID can be optional if not all products have it
+  sku:string
 }
