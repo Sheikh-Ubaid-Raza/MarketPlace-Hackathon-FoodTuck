@@ -74,7 +74,7 @@ const ShoppingCart = () => {
             <CartHero />
 
             {cartCount === 0 ? (
-                <h1 className="text-black font-bold flex justify-center text-4xl py-16 ">
+                <h1 className="text-black font-bold flex justify-center text-2xl py-16 lg:text-4xl">
                     You Dont Have Any Items
                 </h1>
             ) : (

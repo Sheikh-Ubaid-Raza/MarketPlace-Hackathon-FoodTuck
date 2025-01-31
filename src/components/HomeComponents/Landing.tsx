@@ -69,7 +69,7 @@ export default function HeroNavbar() {
             </Link>
           </div>
           <Link href="/shoppingCart" className="relative text-white hover:text-[#FF9F0D] transition-colors">
-            <Image src="/tote.png" alt="cart" width={25} height={24} />
+            <Image src="/Tote.png" alt="cart" width={25} height={24} />
             {cartCount ? (
               <span className="absolute -top-2 -right-2 flex items-center justify-center w-4 h-4 text-xs font-bold text-white bg-red-500 rounded-full">
                 {cartCount}

@@ -10,10 +10,10 @@ const ActiveProcess = () => {
         <Image src={img} alt="background image" className="w-full object-cover"/>
       </div>
       <div className="absolute top-0 left-0 flex flex-col justify-end items-end text-end w-full py-[20px] md:py-[30px] px-[20px] md:px-[60px] lg:px-[130px] text-white">
-        <h1 className="md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font-greatVibes">
+        <h1 className="md:text-[32px] text-[21px] font-normal text-[#FF9F0D] font-greatVibes">
           Restaurant Active Process
         </h1>
-        <h1 className="font-helvetica font-bold text-[24px] md:text-[32px] lg:text-[40px] leading-[30px] md:leading-[38px] lg:leading-[45px] md:w-[500px] lg:w-[700px]">
+        <h1 className="font-helvetica font-bold text-[20px] md:text-[28px] lg:text-[40px] leading-[25px] md:leading-[38px] lg:leading-[45px] md:w-[500px] lg:w-[700px]">
           <span className="text-[#FF9F0D]">We</span> Document Every Food
           Bean Process until it is saved
         </h1>

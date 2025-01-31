@@ -51,7 +51,7 @@ function BlogHome() {
                     <div className="flex justify-between items-center">
                       <div className="text-white"><Link href={"/blog"} className="hover:text-[#ff9f0d] text-base font-[400]">Learn More</Link></div>
                       <div className=" flex items-center gap-2 cursor-pointer">
-                        <HiOutlineHandThumbUp className="w-5 text-white hover:text-[#FF9F0D]"/><HiOutlineChatBubbleLeftEllipsis className="w-5 text-[#FF9F0D] hover:text-[#FF9F0D]"/><CiShare2 className="w-5 text-white hover:text-[#FF9F0D]"/>
+                        <HiOutlineHandThumbUp className="w-5 text-white hover:text-[#FF9F0D] active:text-[#FF9F0D]"/><HiOutlineChatBubbleLeftEllipsis className="w-5 text-[#FF9F0D] hover:text-[#FF9F0D]"/><CiShare2 className="w-5 text-white hover:text-[#FF9F0D] active:text-[#FF9F0D]"/>
                         </div>
                     </div>
                   </div>
