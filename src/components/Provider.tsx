@@ -9,8 +9,8 @@ const CartProvider = ({ children }: { children: ReactNode }) => {
       mode="payment"
       cartMode="client-only"
       stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
-      successUrl="https://ubaidhackathon2.netlify.app/success"
-      cancelUrl="https://ubaidhackathon2.netlify.app/error"
+      successUrl="https://market-place-hackathon-food-tuck.vercel.app/success"
+      cancelUrl="https://market-place-hackathon-food-tuck.vercel.app/error"
       currency="USD"
       billingAddressCollection={false}
       shouldPersist={true}
