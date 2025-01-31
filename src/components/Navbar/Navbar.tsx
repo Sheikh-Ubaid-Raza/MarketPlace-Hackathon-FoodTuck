@@ -22,7 +22,7 @@ export default function Navbar() {
   const { cartCount } = useShoppingCart();
 
   return (
-    <header className="lg:fixed w-full max-w-[1920px] bg-[#0D0D0D] top-0 px-4 sm:px-6 lg:px-[15.62%] py-4 lg:py-7">
+    <header className="w-full max-w-[1920px] bg-[#0D0D0D] top-0 px-4 sm:px-6 lg:px-[15.62%] py-4 lg:py-7">
       <nav className="flex items-center justify-between relative">
         {/* Logo */}
         <Link
