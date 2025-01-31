@@ -85,7 +85,7 @@ const Blog = () => {
           <div className="flex justify-center items-center flex-col">
             <div className="max-w-[115px]">
               <Image
-                src={"/blogProfile.png"}
+                src={"/blogprofile.png"}
                 alt="profile"
                 height={1000}
                 width={1000}

@@ -148,7 +148,7 @@ const AboutBody = () => {
           {/* Chef 1 */}
           <div className="flex flex-col items-center shadow cursor-pointer transition-transform hover:scale-[1.05]  w-[200px] sm:w-[250px] lg:max-w-[312px] md:max-h-[398px]  ">
             <Image
-              src={"/aboutchef.png"}
+              src={"/cheef5.png"}
               alt="Chef 1"
               className=" md:h-[310px] object-cover rounded-lg "
               height={1000}
@@ -166,7 +166,7 @@ const AboutBody = () => {
           {/* Chef 2 */}
           <div className="flex flex-col items-center shadow cursor-pointer transition-transform hover:scale-[1.05]  w-[200px] sm:w-[250px] md:max-w-[312px] md:max-h-[398px]  ">
             <Image
-              src={"/aboutchef.png"}
+              src={"/cheef5.png"}
               alt="Chef 1"
               className=" md:h-[310px] sm:w-[312px] object-cover rounded-lg "
               height={1000}
@@ -184,7 +184,7 @@ const AboutBody = () => {
           {/* Chef 3 */}
           <div className="flex flex-col items-center shadow cursor-pointer transition-transform hover:scale-[1.05]  w-[200px] sm:w-[250px] md:max-w-[312px] md:max-h-[398px]  ">
             <Image
-              src={"/aboutchef.png"}
+              src={"/cheef5.png"}
               alt="Chef 1"
               className=" md:h-[310px] sm:w-[312px] object-cover rounded-lg "
               height={1000}
@@ -202,7 +202,7 @@ const AboutBody = () => {
           {/* Chef 4 */}
           <div className="flex flex-col items-center shadow cursor-pointer transition-transform hover:scale-[1.05]  w-[200px] sm:w-[250px] md:max-w-[312px] md:max-h-[398px]  ">
             <Image
-              src={"/aboutchef.png"}
+              src={"/cheef5.png"}
               alt="Chef 1"
               className=" md:h-[310px] sm:w-[312px] object-cover rounded-lg "
               height={1000}

@@ -73,10 +73,10 @@ export default function Navbar() {
             <Image src="/search.png" alt="search" width={24} height={24} />
           </Link>
           <Link href="/signin" className="text-white hover:text-[#FF9F0D] transition-colors">
-            <Image src="/user.png" alt="user" width={24} height={24} />
+            <Image src="/User.png" alt="user" width={24} height={24} />
           </Link>
           <Link href="/shoppingCart" className="relative text-white hover:text-[#FF9F0D] transition-colors">
-            <Image src="/tote.png" alt="cart" width={24} height={24} />
+            <Image src="/Tote.png" alt="cart" width={24} height={24} />
             {cartCount ? (
               <span className="absolute -top-2 -right-2 flex items-center justify-center w-4 h-4 text-xs font-bold text-white bg-red-500 rounded-full">
                 {cartCount}
