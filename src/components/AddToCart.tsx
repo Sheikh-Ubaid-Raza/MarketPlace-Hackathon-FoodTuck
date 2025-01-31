@@ -28,6 +28,7 @@ const AddToCart = ({
     price: price,
     image: urlFor(images).url(),
     currency: currency,
+    sku: `${name}-${Date.now()}`,
   };
 
   return (
