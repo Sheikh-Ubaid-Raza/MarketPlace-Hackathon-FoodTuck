@@ -9,7 +9,7 @@ export default function Signup(){
         {/* Signup Form */}
         <section className="py-16">
           <div className="container mx-auto max-w-md bg-white shadow-lg shadow-pink-200 rounded-md p-8">
-            <h3 className="text-2xl font-bold mb-8">Sign Up</h3>
+            <h3 className="text-2xl font-bold mb-8 text-gray-800">Sign Up</h3>
             <form>
               <div className="mb-4">
                 <input
@@ -32,10 +32,6 @@ export default function Signup(){
                   className="w-full border rounded px-3 py-2 focus:ring focus:ring-yellow-300"
                   placeholder="Password"
                 />
-              </div>
-              <div className="flex items-center mb-4">
-                <input type="checkbox" className="mr-2" />
-                <span>Remember me?</span>
               </div>
               <button
                 type="submit"

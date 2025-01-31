@@ -1,9 +1,9 @@
-import { Facebook, Twitter, Instagram, Youtube, PinIcon } from 'lucide-react'
+import { Facebook, Github, Instagram, Youtube, PinIcon } from 'lucide-react'
 
 export default function SocialIcons() {
   const icons = [
     { Icon: Facebook, color: 'text-[#1E1E1E]' },
-    { Icon: Twitter, color: 'text-[#1E1E1E]' },
+    { Icon: Github, color: 'text-[#1E1E1E]' },
     { Icon: Instagram, color: 'text-[#1E1E1E]' },
     { Icon: Youtube, color: 'text-[#FF9F0D]' },
     { Icon: PinIcon, color: 'text-[#1E1E1E]' },

@@ -56,8 +56,8 @@ const Faq: React.FC = () => {
                 onClick={() => toggleFAQ(index)}
                 className="cursor-pointer flex justify-between items-center"
               >
-                <h3 className="text-lg font-medium">{faq.question}</h3>
-                <span className="text-2xl">
+                <h3 className="text-lg font-medium text-gray-900">{faq.question}</h3>
+                <span className="text-2xl text-[#ff9f0d]">
                   {openIndex === index ? '' : '+'}
                 </span>
               </div>

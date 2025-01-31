@@ -1,22 +1,28 @@
-import HeroNavbar from "@/components/Landing/Landing";
-import AboutUs from "@/components/Aboutus";
-import FoodCategory from "@/components/FoodCategory";
-import HeroMenu from "@/components/HeroMenu";
-import MeetChef from "@/components/MeetChef";
-import PartnersAndClients from "@/components/pattnerClient/pattnerClient";
-import Experience from "@/components/Experience/Experience";
+import AbountUs from "@/components/HomeComponents/Aboutus";
+import ActiveProcess from "@/components/HomeComponents/ActiveProcess";
+import BlogHome from "@/components/HomeComponents/BlogHome";
+import Experience from "@/components/HomeComponents/Experience";
+import FoodCategory from "@/components/HomeComponents/FoodCategory";
+import HeroMenu from "@/components/HomeComponents/HeroMenu";
+import HeroNavbar from "@/components/HomeComponents/Landing";
+import MeetChef from "@/components/HomeComponents/MeetChef";
+import TestimonialHome from "@/components/HomeComponents/TestimonialHome";
+import WhyChooseUs from "@/components/HomeComponents/WhyChooseUs";
 
 export default function Home() {
   return (
     <>
       {/* Home Page */}
       <HeroNavbar />
-      <AboutUs />
+      <AbountUs />
       <FoodCategory />
+      <WhyChooseUs />
+      <Experience />      
       <HeroMenu />
       <MeetChef />
-      <Experience />
-      <PartnersAndClients />
+      <TestimonialHome />
+      <ActiveProcess />
+      <BlogHome />
     </>
   );
 }

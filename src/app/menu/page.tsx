@@ -1,11 +1,12 @@
-import Dessert from "@/components/Dessert/Dessert";
-import Drink from "@/components/Drinks/Drinks";
-import Experience from "@/components/Experience/Experience";
-import Hero from "@/components/HeroSection/Hero";
+
 import Navbar from "@/components/Navbar/Navbar";
-import MainCours from "@/components/MainCours/MainCourse";
-import StarterMenu from "@/components/Menu/StartMenu";
-import PartnersAndClients from "@/components/pattnerClient/pattnerClient";
+import Experience from "@/components/HomeComponents/Experience";
+import Hero from "@/components/MainHero/MenuHero";
+import MainCours from "@/components/MenuComponents/MainCourse";
+import Dessert from "@/components/MenuComponents/Dessert";
+import Drink from "@/components/MenuComponents/Drinks";
+import PartnersAndClients from "@/components/MenuComponents/pattnerClient";
+import StartMenu from "@/components/MenuComponents/StartMenu";
 
 const MenuPage = () => {
   return (
@@ -13,12 +14,12 @@ const MenuPage = () => {
   {/* Menu Page */}
        <Navbar />
        <Hero />
-       <StarterMenu />
-       <MainCours/>
+       <StartMenu />
+       <MainCours />
        <Experience/>
        <Dessert/>
        <Drink/>	
-       <PartnersAndClients/>
+       <PartnersAndClients />
   </div>
 )};
 
