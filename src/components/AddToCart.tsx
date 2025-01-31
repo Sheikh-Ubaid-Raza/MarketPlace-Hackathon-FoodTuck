@@ -9,7 +9,6 @@ interface ProductCartProps {
   name: string;
   price: number;
   images: string;
-  price_id?: string;
   btnName: string;
   currency:string
 }
@@ -20,7 +19,6 @@ const AddToCart = ({
   price,
   images,
   btnName,
-  price_id,
  
 }: ProductCartProps) => {
   const { addItem } = useShoppingCart();
@@ -29,9 +27,7 @@ const AddToCart = ({
     name: name,
     price: price,
     image: urlFor(images).url(),
-    price_id: price_id,
     currency: currency,
-    id:price_id
   };
 
   return (
