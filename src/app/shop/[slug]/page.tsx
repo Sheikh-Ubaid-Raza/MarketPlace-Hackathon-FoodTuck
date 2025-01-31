@@ -101,7 +101,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <Link href={"/checkout"}>
                 <AddToCart
                   key={product._id}
-                  price_id={product?.stripe}
                   btnName="CheckOut"
                   name={product.name}
                   price={product.price}
@@ -112,7 +111,6 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
               <AddToCart
                 key={product._id}
-                price_id={product?.stripe}
                 btnName="Add to Cart"
                 name={product.name}
                 price={product.price}
